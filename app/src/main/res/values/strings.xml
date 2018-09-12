@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Storage Permission Issue</string>
+    <string name="action_go_to_settings">Go to settings</string>
+
+    <string name="main_message">Press Fab button to request storage permission and click \'Allow\'. You will see a toast that says that \'storage permission was denied\' because only READ is actually granted.</string>
+    <string name="write_file_message">Press \'Write File\' and you will see that if WRITE permission was not granted you can\'t save the file. Add the tools:node=\"replace\" on Manifest and you will see that now everything works.</string>
+    <string name="action_write_file">Write File</string>
+
+    <string name="storage_permission_granted">Storage permission was granted :)</string>
+    <string name="storage_permission_denied">Storage permission was denied :(</string>
+    <string name="write_file_result">File was saved? %1$b</string>
+</resources>
